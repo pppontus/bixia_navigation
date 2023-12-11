@@ -27,7 +27,7 @@
         ]
     },
     {
-        "title": "BOENDEFORM",
+        "title": "BOENDEFORMER",
         "submenus": [
             {
                 "title": "Husvagn",
@@ -317,7 +317,8 @@
                     {"title": "Trivselregler"},
                     {"title": "In och utcheckning"}
                 ]
-            }
+            },
+            {"title": "Kontakta oss"}
         ]
     }
 ]
