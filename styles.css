@@ -1,0 +1,117 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.menu {
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    border-bottom: 1px solid #ddd;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    display: flex; /* Updated for flexbox layout */
+    justify-content: space-between; /* Align content with space between */
+    align-items: center; /* Center items vertically */
+    padding: 10px 15px; /* Adjusted padding */
+    transition: background-color 0.3s;
+    position: relative; /* Ensure relative positioning for absolute children */
+}
+
+/* Toggle Icon Style */
+.menu a .toggle {
+    position: absolute;
+    right: 10px; /* Adjust as needed */
+    transition: transform 0.3s;
+}
+
+.menu a .toggle::before {
+    content: '>';
+}
+
+.menu a .toggle.open::before {
+    content: 'v';
+    transform: rotate(90deg);
+}
+
+/* Level Styles */
+.menu > .level-1 > li > a {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.menu .level-2 > li > a {
+    background-color: #f8f8f8;
+    padding-left: 20px;
+}
+
+.menu .level-3 > li > a {
+    background-color: #eef2f7;
+    padding-left: 40px;
+}
+
+.menu .level-4 > li > a {
+    background-color: #e0e6ef;
+    padding-left: 60px;
+}
+
+.menu .level-5 > li > a {
+    background-color: #d1dae6;
+    padding-left: 80px;
+}
+
+.menu .level-6 > li > a {
+    background-color: #ffffff;
+    padding-left: 100px;
+}
+
+/* Submenu Display Toggle */
+.menu .submenu .toggle {
+    float: right;
+}
+
+.menu .submenu:hover .toggle,
+.menu .submenu:focus-within .toggle {
+    transform: rotate(90deg); /* Rotates the toggle icon */
+}
+
+/* Last item border removal */
+.menu li:last-child {
+    border-bottom: none;
+}
+
+/* Initial state of submenus is not displayed */
+.menu .level-2,
+.menu .level-3,
+.menu .level-4,
+.menu .level-5 {
+    display: none;
+}
+
+/* Submenu Display Toggle */
+.menu .submenu .toggle {
+    transform: rotate(0deg); /* Initial state */
+}
+
+.menu .submenu:hover .toggle,
+.menu .submenu:focus-within .toggle {
+    transform: rotate(90deg); /* Rotates the toggle icon */
+}

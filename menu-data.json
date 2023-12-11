@@ -1,0 +1,317 @@
+[
+    {
+        "title": "DESTINATIONER",
+        "submenus": [
+            {"title": "Alla destinationer"},
+            {
+                "title": "Sverige",
+                "submenus": [
+                    {"title": "Norrland"},
+                    {"title": "Mellersta sverige"},
+                    {"title": "Södra sverige"},
+                    {"title": "Västkusten"},
+                    {"title": "Östkusten"},
+                    {"title": "Alla svenska destinationer"}
+                ]
+            },
+            {"title": "Norge"},
+            {
+                "title": "Danmark",
+                "submenus": [
+                    {"title": "Fyn"},
+                    {"title": "Jylland"},
+                    {"title": "Sjælland"},
+                    {"title": "Alla danska destinationer"}
+                ]
+            }
+        ]
+    },
+    {
+        "title": "BOENDEFORM",
+        "submenus": [
+            {
+                "title": "Husvagn",
+                "submenus": [
+                    {
+                        "title": "Destinationer",
+                        "submenus": [
+                            {"title": "Alla destinationer"},
+                            {
+                                "title": "Sverige",
+                                "submenus": [
+                                    {"title": "Norrland"},
+                                    {"title": "Mellersta sverige"},
+                                    {"title": "Södra sverige"},
+                                    {"title": "Västkusten"},
+                                    {"title": "Östkusten"},
+                                    {"title": "Alla svenska destinationer"}
+                                ]
+                            },
+                            {"title": "Norge"},
+                            {
+                                "title": "Danmark",
+                                "submenus": [
+                                    {"title": "Fyn"},
+                                    {"title": "Jylland"},
+                                    {"title": "Sjælland"},
+                                    {"title": "Alla danska destinationer"}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Med närhet till...",
+                        "submenus": [
+                            {"title": "Natur"},
+                            {"title": "Strand"},
+                            {"title": "Sport och rörelse"}
+                        ]
+                    },
+                    {"title": "Säsongsplats"},
+                    {"title": "Erbjudanden & paket"}
+                ]
+            },
+            {
+                "title": "Husbil",
+                "submenus": [
+                    {
+                        "title": "Destinationer",
+                        "submenus": [
+                            {"title": "Alla destinationer"},
+                            {
+                                "title": "Sverige",
+                                "submenus": [
+                                    {"title": "Norrland"},
+                                    {"title": "Mellersta sverige"},
+                                    {"title": "Södra sverige"},
+                                    {"title": "Västkusten"},
+                                    {"title": "Östkusten"},
+                                    {"title": "Alla svenska destinationer"}
+                                ]
+                            },
+                            {"title": "Norge"},
+                            {
+                                "title": "Danmark",
+                                "submenus": [
+                                    {"title": "Fyn"},
+                                    {"title": "Jylland"},
+                                    {"title": "Sjælland"},
+                                    {"title": "Alla danska destinationer"}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Med närhet till...",
+                        "submenus": [
+                            {"title": "Natur"},
+                            {"title": "Strand"},
+                            {"title": "Sport och rörelse"}
+                        ]
+                    },
+                    {"title": "Erbjudanden & paket"},
+                    {"title": "Ställplats"}
+                ]
+            },
+            {
+                "title": "Stugor",
+                "submenus": [
+                    {
+                        "title": "Destinationer",
+                        "submenus": [
+                            {"title": "Alla destinationer"},
+                            {
+                                "title": "Sverige",
+                                "submenus": [
+                                    {"title": "Norrland"},
+                                    {"title": "Mellersta sverige"},
+                                    {"title": "Södra sverige"},
+                                    {"title": "Västkusten"},
+                                    {"title": "Östkusten"},
+                                    {"title": "Alla svenska destinationer"}
+                                ]
+                            },
+                            {"title": "Norge"},
+                            {
+                                "title": "Danmark",
+                                "submenus": [
+                                    {"title": "Fyn"},
+                                    {"title": "Jylland"},
+                                    {"title": "Sjælland"},
+                                    {"title": "Alla danska destinationer"}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Med närhet till...",
+                        "submenus": [
+                            {"title": "Natur"},
+                            {"title": "Strand"},
+                            {"title": "Sport och rörelse"}
+                        ]
+                    },
+                    {"title": "Erbjudanden & paket"},
+                    {"title": "Företagsboende"}
+                ]
+            },
+            {
+                "title": "Hotell & vandrarhem",
+                "submenus": [
+                    {
+                        "title": "Destinationer",
+                        "submenus": [
+                            {"title": "Alla destinationer"},
+                            {
+                                "title": "Sverige",
+                                "submenus": [
+                                    {"title": "Norrland"},
+                                    {"title": "Mellersta sverige"},
+                                    {"title": "Södra sverige"},
+                                    {"title": "Västkusten"},
+                                    {"title": "Östkusten"},
+                                    {"title": "Alla svenska destinationer"}
+                                ]
+                            },
+                            {"title": "Norge"},
+                            {
+                                "title": "Danmark",
+                                "submenus": [
+                                    {"title": "Fyn"},
+                                    {"title": "Jylland"},
+                                    {"title": "Sjælland"},
+                                    {"title": "Alla danska destinationer"}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Med närhet till...",
+                        "submenus": [
+                            {"title": "Natur"},
+                            {"title": "Strand"},
+                            {"title": "Sport och rörelse"}
+                        ]
+                    },
+                    {"title": "Erbjudanden & paket"},
+                    {"title": "Företagsboende"}
+                ]
+            },
+            {
+                "title": "Glamping",
+                "submenus": [
+                    {
+                        "title": "Destinationer",
+                        "submenus": [
+                            {"title": "Alla destinationer"},
+                            {
+                                "title": "Sverige",
+                                "submenus": [
+                                    {"title": "Norrland"},
+                                    {"title": "Mellersta sverige"},
+                                    {"title": "Södra sverige"},
+                                    {"title": "Västkusten"},
+                                    {"title": "Östkusten"},
+                                    {"title": "Alla svenska destinationer"}
+                                ]
+                            },
+                            {"title": "Norge"},
+                            {
+                                "title": "Danmark",
+                                "submenus": [
+                                    {"title": "Fyn"},
+                                    {"title": "Jylland"},
+                                    {"title": "Sjælland"},
+                                    {"title": "Alla danska destinationer"}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Med närhet till...",
+                        "submenus": [
+                            {"title": "Natur"},
+                            {"title": "Strand"},
+                            {"title": "Sport och rörelse"}
+                        ]
+                    },
+                    {"title": "Erbjudanden & paket"}
+                ]
+            },
+            {
+                "title": "Tält",
+                "submenus": [
+                    {
+                        "title": "Destinationer",
+                        "submenus": [
+                            {"title": "Alla destinationer"},
+                            {
+                                "title": "Sverige",
+                                "submenus": [
+                                    {"title": "Norrland"},
+                                    {"title": "Mellersta sverige"},
+                                    {"title": "Södra sverige"},
+                                    {"title": "Västkusten"},
+                                    {"title": "Östkusten"},
+                                    {"title": "Alla svenska destinationer"}
+                                ]
+                            },
+                            {"title": "Norge"},
+                            {
+                                "title": "Danmark",
+                                "submenus": [
+                                    {"title": "Fyn"},
+                                    {"title": "Jylland"},
+                                    {"title": "Sjælland"},
+                                    {"title": "Alla danska destinationer"}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Med närhet till...",
+                        "submenus": [
+                            {"title": "Natur"},
+                            {"title": "Strand"},
+                            {"title": "Sport och rörelse"}
+                        ]
+                    },
+                    {"title": "Erbjudanden & paket"}
+                ]
+            }
+        ]
+    },
+    {
+        "title": "PAKET & ERBJUDANDEN",
+        "submenus": [
+            {
+                "title": "Upplevelsepaket",
+                "submenus": [
+                    {"title": "Sunne sommarland"},
+                    {"title": "Leksand sommarland"},
+                    {"title": "Jesperhus"},
+                    {"title": "Skidåkning"},
+                    {"title": "Wakeboard"}
+                ]
+            },
+            {"title": "Säsongsplats"},
+            {"title": "Kampanjer & rabatter"},
+            {"title": "Lågpriskalendern"}
+        ]
+    },
+    {
+        "title": "INFORMATION",
+        "submenus": [
+            {"title": "Vanliga frågor"},
+            {"title": "First Camp Club"},
+            {
+                "title": "Praktisk information",
+                "submenus": [
+                    {"title": "Bokning- och betalningsvillkor"},
+                    {"title": "Trivselregler"},
+                    {"title": "In och utcheckning"}
+                ]
+            }
+        ]
+    }
+]
