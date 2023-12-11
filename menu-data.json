@@ -62,9 +62,10 @@
                     {
                         "title": "Med närhet till...",
                         "submenus": [
-                            {"title": "Natur"},
+                            {"title": "Husvagnsmässan"},
                             {"title": "Strand"},
-                            {"title": "Sport och rörelse"}
+                            {"title": "Sport och rörelse"},
+                            {"title": "Osv..."}
                         ]
                     },
                     {"title": "Säsongsplats"},
@@ -104,9 +105,10 @@
                     {
                         "title": "Med närhet till...",
                         "submenus": [
-                            {"title": "Natur"},
+                            {"title": "Husbilsverkstad"},
                             {"title": "Strand"},
-                            {"title": "Sport och rörelse"}
+                            {"title": "Sport och rörelse"},
+                            {"title": "Osv..."}
                         ]
                     },
                     {"title": "Erbjudanden & paket"},
@@ -146,9 +148,10 @@
                     {
                         "title": "Med närhet till...",
                         "submenus": [
-                            {"title": "Natur"},
+                            {"title": "Populärt stugområde"},
                             {"title": "Strand"},
-                            {"title": "Sport och rörelse"}
+                            {"title": "Sport och rörelse"},
+                            {"title": "Osv..."}
                         ]
                     },
                     {"title": "Erbjudanden & paket"},
@@ -188,9 +191,10 @@
                     {
                         "title": "Med närhet till...",
                         "submenus": [
-                            {"title": "Natur"},
+                            {"title": "Populärt hotellresmål"},
                             {"title": "Strand"},
-                            {"title": "Sport och rörelse"}
+                            {"title": "Sport och rörelse"},
+                            {"title": "Osv..."}
                         ]
                     },
                     {"title": "Erbjudanden & paket"},
@@ -230,9 +234,10 @@
                     {
                         "title": "Med närhet till...",
                         "submenus": [
-                            {"title": "Natur"},
+                            {"title": "Glammiga saker"},
                             {"title": "Strand"},
-                            {"title": "Sport och rörelse"}
+                            {"title": "Sport och rörelse"},
+                            {"title": "Osv..."}
                         ]
                     },
                     {"title": "Erbjudanden & paket"}
@@ -271,9 +276,10 @@
                     {
                         "title": "Med närhet till...",
                         "submenus": [
-                            {"title": "Natur"},
+                            {"title": "Tältparadis"},
                             {"title": "Strand"},
-                            {"title": "Sport och rörelse"}
+                            {"title": "Sport och rörelse"},
+                            {"title": "Osv..."}
                         ]
                     },
                     {"title": "Erbjudanden & paket"}
