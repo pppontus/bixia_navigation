@@ -1,26 +1,19 @@
 // menu.js
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('menu-data.json')
-        .then(response => response.json())
-        .then(menuData => {
-            const menuContainer = document.getElementById('menuContainer');
-            menuContainer.appendChild(createMenu(menuData, 1));
-        })
-        .catch(error => {
-            console.error('Error loading menu data:', error);
-        });
+    const menuContainer = document.getElementById('menuContainer');
+    const menuSelector = document.getElementById('menuSelector');
 
     function createMenu(menuArray, level) {
         const ul = document.createElement('ul');
         ul.className = 'level-' + level;
-        
+
         menuArray.forEach(function (item) {
             const li = document.createElement('li');
             const a = document.createElement('a');
             a.textContent = item.title;
             a.href = 'javascript:void(0)'; // Prevent default link behavior
             li.appendChild(a);
-            
+
             if (item.submenus && item.submenus.length) {
                 const span = document.createElement('span');
                 span.className = 'toggle';
@@ -33,13 +26,30 @@ document.addEventListener('DOMContentLoaded', function () {
                     span.classList.toggle('open');
                 });
             }
-
             ul.appendChild(li);
         });
-
         return ul;
     }
 
-    const menuContainer = document.getElementById('menuContainer');
-    menuContainer.appendChild(createMenu(menuData, 1));
+    function loadMenu(jsonFile) {
+        fetch(jsonFile)
+            .then(response => response.json())
+            .then(menuData => {
+                menuContainer.innerHTML = ''; // Clear existing menu
+                const menuIdentifier = jsonFile.replace('.json', '').replace('menu-', '');
+                menuContainer.setAttribute('data-menu', menuIdentifier); // Set data attribute
+
+                const menu = createMenu(menuData, 1);
+                menuContainer.appendChild(menu);
+            })
+            .catch(error => {
+                console.error('Error loading menu data:', error);
+            });
+    }
+
+    loadMenu(menuSelector.value);
+
+    menuSelector.addEventListener('change', function () {
+        loadMenu(this.value);
+    });
 });
