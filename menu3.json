@@ -1,5 +1,76 @@
 [
     {
-        "title": "FINNS EJ"
+        "title": "DESTINATIONER",
+        "submenus": [
+            {"title": "Alla destinationer"},
+            {
+                "title": "Sverige",
+                "submenus": [
+                    {"title": "Norrland"},
+                    {"title": "Mellersta Sverige"},
+                    {"title": "Södra Sverige"},
+                    {"title": "Västkusten"},
+                    {"title": "Östkusten"},
+                    {"title": "Alla svenska destinationer"}
+                ]
+            },
+            {"title": "Norge"},
+            {
+                "title": "Danmark",
+                "submenus": [
+                    {"title": "Fyn"},
+                    {"title": "Jylland"},
+                    {"title": "Sjælland"},
+                    {"title": "Alla danska destinationer"}
+                ]
+            },
+            {
+                "title": "Kluster",
+                "submenus": [
+                    {"title": "Naturskön och vacker plats vid sjö"},
+                    {"title": "Naturskön och vacker plats vid hav"},
+                    {"title": "Aktiviteter för barn"},
+                    {"title": "Bekvämlighet och evenemang"}
+                ]
+            }
+        ]
+    },
+    {
+        "title": "BOENDEFORMER",
+        "submenus": [
+            {"title": "Husvagn"},
+            {"title": "Husbil"},
+            {"title": "Stugor"},
+            {"title": "Hotell & Vandrarhem"},
+            {"title": "Glamping"},
+            {"title": "Tält"}
+        ]
+    },
+    {
+        "title": "PAKET & ERBJUDANDEN",
+        "submenus": [
+            {"title": "Aktuella erbjudanden"},
+            {"title": "Säsongsbaserade paket"},
+            {"title": "Upplevelsepaket"},
+            {"title": "Kampanjer & rabatter"}
+        ]
+    },
+    {
+        "title": "UPPTÄCK & INSPIRERAS",
+        "submenus": [
+            {"title": "Artiklar & Bloggar"},
+            {"title": "Reseguider"},
+            {"title": "Säsongstips"}
+        ]
+    },
+    {
+        "title": "INFORMATION",
+        "submenus": [
+            {"title": "Vanliga frågor"},
+            {"title": "Boknings- och betalningsvillkor"},
+            {"title": "Trivselregler"},
+            {"title": "In- och utcheckning"},
+            {"title": "Kontakta oss"}
+        ]
     }
 ]
