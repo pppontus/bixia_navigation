@@ -19,12 +19,12 @@
         ]
     },
     {"title": "Flytt"},
-    {"title": "Kunskapsbanken"},
+    {"title": "Kunstapsbanken"},
     {
         "title": "Om Bixia",
         "submenus": [
-            {"title": "Jobba hos oss"},
+            {"title": "Jobba hos oss"}
         ]
-    }
-    {"title": "Kundtjänst"},
+    },
+    {"title": "Kundtjänst"}
 ]
