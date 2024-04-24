@@ -1,172 +1,30 @@
 [
     {
-        "title": "DESTINATIONER",
+        "title": "Villa",
         "submenus": [
-            {"title": "Alla destinationer"},
-            {
-                "title": "Sverige",
-                "submenus": [
-                    {"title": "Norrland"},
-                    {"title": "Mellersta sverige"},
-                    {"title": "Södra sverige"},
-                    {"title": "Västkusten"},
-                    {"title": "Östkusten"}
-                ]
-            },
-            {
-                "title": "Danmark",
-                "submenus": [
-                    {"title": "Fyn"},
-                    {"title": "Jylland"},
-                    {"title": "Sjælland"}
-                ]
-            },
-            {"title": "Norge"},
-            {
-                "title": "Utvalda områden",
-                "submenus": [
-                    {"title": "Dalarna"},
-                    {"title": "Skagen"},
-                    {"title": "Bjärehalvön"},
-                    {"title": "Österlen"}
-                ]
-            },
-            {
-                "title": "Hur vill du bo",
-                "submenus": [
-                    {"title": "Barnklubb"},
-                    {"title": "Med pool"},
-                    {"title": "Med hund"},
-                    {"title": "Aktivitetsutbud"},
-                    {"title": "Bistro"}
-                ]
-            },
-            {
-                "title": "Nära till",
-                "submenus": [
-                    {"title": "Golfbanor"},
-                    {"title": "City"},
-                    {"title": "Havet"},
-                    {"title": "Padel"},
-                    {"title": "Norrsken"}
-                ]
-            }
+            {"title": "Teckna elavtal"},
+            {"title": "Solceller"}
         ]
     },
     {
-        "title": "BOENDE",
+        "title": "Lägenhet",
         "submenus": [
-            {
-                "title": "Semester",
-                "submenus": [
-                    {"title": "Camping"},
-                    {"title": "Glamping"},
-                    {"title": "Husbil"},
-                    {"title": "Ställplatser"},
-                    {"title": "Stugor"},
-                    {"title": "Hotell"},
-                    {"title": "Rum (vandrarhem)"}
-                ]
-            },
-            {
-                "title": "Grupp och företag",
-                "submenus": [
-                    {"title": "Företagsboende"},
-                    {"title": "Konferens"},
-                    {"title": "Grupper"},
-                    {"title": "Klassresa"},
-                    {"title": "Träningsläger"},
-                    {"title": "Hundaktiviteter"}
-                ]
-            },
-            {
-                "title": "Säsong",
-                "submenus": [
-                    {"title": "Om säsongsplats"},
-                    {"title": "Boka sommarsäsong"},
-                    {"title": "Boka vintersäsong"},
-                    {"title": "Boka för- och eftersäsong"},
-                    {"title": "Säsongsfamiljen"}
-                ]
-            },
-            {
-                "title": "Utvalt",
-                "submenus": [
-                    {"title": "Familjestugor"},
-                    {"title": "Upptäck Yessis värld"},
-                    {"title": "Semester med husbil"},
-                    {"title": "Vintercamping"},
-                    {"title": "Campa med hund"},
-                    {"title": "Nyheter 2024"}
-                ]
-            }
+            {"title": "Teckna elavtal"}
         ]
     },
     {
-        "title": "ERBJUDANDEN",
+        "title": "Företag",
         "submenus": [
-            {
-                "title": "Kampanjer",
-                "submenus": [
-                    {"title": "Alla aktuella kampanjer"},
-                    {"title": "3 för 2 på alla stugor"},
-                    {"title": "Paketpriser i Danmark"},
-                    {"title": "20% seniorrabatt"},
-                    {"title": "Senare utcheckning"},
-                    {"title": "Lågpriskalendern"}
-                ]
-            },
-            {
-                "title": "Paket",
-                "submenus": [
-                    {"title": "Wake boardpaket"},
-                    {"title": "Sunne sommarland paket"},
-                    {"title": "Leksand sommarland paket"},
-                    {"title": "Jesperhus paket"},
-                    {"title": "Skidpaket i Mora"}
-                ]
-            }
+            {"title": "Teckna elavtal"}
         ]
     },
+    {"title": "Flytt"},
+    {"title": "Kunstapsbanken"},
     {
-        "title": "AKTIVITETER",
+        "title": "Om Bixia",
         "submenus": [
-            {
-                "title": "För familjen",
-                "submenus": [
-                    {"title": "Barnklubb"},
-                    {"title": "Pool"},
-                    {"title": "Äventyrsgolf"},
-                    {"title": "Höghöjdsbana"},
-                    {"title": "Underhållning"}
-                ]
-            },
-            {
-                "title": "Lugn och ro",
-                "submenus": [
-                    {"title": "Bastu"},
-                    {"title": "Fiske"},
-                    {"title": "Relax"},
-                    {"title": "Strand och bad"}
-                ]
-            },
-            {
-                "title": "I naturen",
-                "submenus": [
-                    {"title": "Cykelleder"},
-                    {"title": "Kanotuthyrning"},
-                    {"title": "Vandringsleder"}
-                ]
-            },
-            {
-                "title": "Sport och rörelse",
-                "submenus": [
-                    {"title": "MTB"},
-                    {"title": "Padel"},
-                    {"title": "Träningsprogram"},
-                    {"title": "Golf"}
-                ]
-            }
+            {"title": "Jobba hos oss"}
         ]
-    }
+    },
+    {"title": "Kundtjänst"}
 ]
