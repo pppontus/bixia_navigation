@@ -1,46 +1,5 @@
 [
     {
-        "title": "Camping",
-        "submenus": [
-            {"title": "Husvagnscamping"},
-            {"title": "Husbilscamping"},
-            {"title": "Tältcamping"},
-            {"title": "Faciliteter"},
-            {"title": "Priser och Bokning"}
-        ]
-    },
-    {
-        "title": "Stugor",
-        "submenus": [
-            {"title": "Enkla Stugor"},
-            {"title": "Lyxstugor"},
-            {"title": "Plats och Bekvämligheter"}
-        ]
-    },
-    {
-        "title": "Destinationer",
-        "submenus": [
-            {"title": "Sverige"},
-            {"title": "Norge"},
-            {"title": "Danmark"},
-            {"title": "Sevärdheter"}
-        ]
-    },
-    {
-        "title": "Kampanjer",
-        "submenus": [
-            {"title": "Säsongsbaserade Kampanjer"},
-            {"title": "Specialerbjudanden"}
-        ]
-    },
-    {
-        "title": "Aktiviteter",
-        "submenus": [
-            {"title": "Vandring"},
-            {"title": "Cykling"},
-            {"title": "Fiske"},
-            {"title": "Barnaktiviteter"}
-        ]
-    },
-    {"title": "FAQ"}
+        "title": "FINNS EJ"
+    }
 ]
