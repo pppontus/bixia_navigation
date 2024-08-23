@@ -14,6 +14,33 @@ body {
     overflow: hidden;
 }
 
+/* Menyväxlare - Privat/Företag flikar */
+.menu-switcher {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.menu-switcher button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.menu-switcher button.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.menu-switcher button:hover:not(.active) {
+    background-color: #dcdcdc;
+}
+
 .menu ul {
     list-style: none;
     padding: 0;
@@ -132,9 +159,6 @@ body {
     margin-top: 20px; /* Space above the line */
     margin-bottom: 20px; /* Space below the line */
 }
-
-/* styles.css */
-/* ... Other styles ... */
 
 /* Background colors for level 1 buttons based on data-menu attribute */
 .menu[data-menu="menu1"] > ul.level-1 > li > a {
