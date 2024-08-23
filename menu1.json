@@ -1,5 +1,8 @@
 [
     {
+        "title": "Logga in"
+    },
+    {
         "title": "Villa",
         "submenus": [
             {
@@ -32,27 +35,27 @@
                     {"title": "Information om elbilsladdning"},
                     {"title": "Guide - Är elbil för mig?"}
                 ]
+            },
+            {
+                "title": "Kunskapscenter - Populära kategorier",
+                "submenus": [
+                    {"title": "Sänk din elkostnad"},
+                    {"title": "Förstå solceller"},
+                    {"title": "Allt om elbil"},
+                    {"title": "Batterilagring"},
+                    {"title": "Minska din miljöpåverkan"}
+                ]
+            },
+            {
+                "title": "Nyheter"
+            },
+            {
+                "title": "Kundcenter"
+            },
+            {
+                "title": "Appen Mitt Bixia"
             }
         ]
-    },
-    {
-        "title": "Kunskapscenter - Populära kategorier",
-        "submenus": [
-            {"title": "Sänk din elkostnad"},
-            {"title": "Förstå solceller"},
-            {"title": "Allt om elbil"},
-            {"title": "Batterilagring"},
-            {"title": "Minska din miljöpåverkan"}
-        ]
-    },
-    {
-        "title": "Nyheter"
-    },
-    {
-        "title": "Kundcenter"
-    },
-    {
-        "title": "Appen Mitt Bixia"
     },
     {
         "title": "Lägenhet",
