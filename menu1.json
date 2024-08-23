@@ -6,6 +6,8 @@
                 "title": "Elavtal",
                 "submenus": [
                     {"title": "Våra elavtal"},
+                    {"title": "Flytt"},
+                    {"title": "Elpriser"},
                     {"title": "Guide - Hjälp mig välja"}
                 ]
             },
@@ -37,6 +39,44 @@
                 "title": "Kunskapscenter - Populära kategorier",
                 "submenus": [
                     {"title": "Sänk din elkostnad"},
+                    {"title": "Minska din miljöpåverkan"},
+                    {"title": "Allt om elbil"}
+                ]
+            },
+            {
+                "title": "Nyheter"
+            },
+            {
+                "title": "Kundcenter"
+            },
+            {
+                "title": "Appen Mitt Bixia"
+            }
+        ]
+    },
+    {
+        "title": "Lägenhet",
+        "submenus": [
+            {
+                "title": "Elavtal",
+                "submenus": [
+                    {"title": "Våra elavtal"},
+                    {"title": "Elpriser"},
+                    {"title": "Guide - Hjälp mig välja"}
+                ]
+            },
+            {
+                "title": "Flytt",
+                "submenus": [
+                    {"title": "Flytta elavtal"},
+                    {"title": "Att tänka på"},
+                    {"title": "Guide - Välj rätt elavtal"}
+                ]
+            },
+            {
+                "title": "Kunskapscenter - Populära kategorier",
+                "submenus": [
+                    {"title": "Sänk din elkostnad"},
                     {"title": "Förstå solceller"},
                     {"title": "Allt om elbil"},
                     {"title": "Batterilagring"},
@@ -55,15 +95,52 @@
         ]
     },
     {
-        "title": "Lägenhet",
+        "title": "Företag",
         "submenus": [
-            {"title": "Elavtal"},
-            {"title": "Appen Mitt Bixia"},
-            {"title": "Kundservice"},
-            {"title": "Nyheter"}
+            {
+                "title": "Elavtal",
+                "submenus": [
+                    {"title": "Våra elavtal"},
+                    {"title": "Elmarknaden"},
+                    {"title": "Elpriser"},
+                    {"title": "Guide - Hjälp mig välja"}
+                ]
+            },
+            {
+                "title": "För producenter",
+                "submenus": [
+                    {"title": "Alternativ 1"},
+                    {"title": "Alternativ 2"},
+                    {"title": "Alternativ 3"}
+                ]
+            },
+            {
+                "title": "Batterilagring",
+                "submenus": [
+                    {"title": "Alternativ 1"},
+                    {"title": "Alternativ 2"},
+                    {"title": "Alternativ 3"}
+                ]
+            },
+            {
+                "title": "Kunskapscenter - Populära kategorier",
+                "submenus": [
+                    {"title": "Sänk din elkostnad"},
+                    {"title": "Sänk ditt miljöavtryck"},
+                    {"title": "Solceller"},
+                    {"title": "Elbilsladdning"},
+                    {"title": "Batterilagring"}
+                ]
+            },
+            {
+                "title": "Nyheter"
+            },
+            {
+                "title": "Kontakta oss"
+            }
         ]
     },
     {
-        "title": "Företag"
+        "title": "Logga in"
     }
 ]
