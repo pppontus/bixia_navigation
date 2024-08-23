@@ -1,4 +1,3 @@
-// menu.js
 document.addEventListener('DOMContentLoaded', function () {
     const menuContainer = document.getElementById('menuContainer');
     const menuSelector = document.getElementById('menuSelector');
