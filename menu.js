@@ -2,6 +2,10 @@
 document.addEventListener('DOMContentLoaded', function () {
     const menuContainer = document.getElementById('menuContainer');
     const menuSelector = document.getElementById('menuSelector');
+    const privateButton = document.getElementById('privateButton');
+    const businessButton = document.getElementById('businessButton');
+
+    let currentMenuType = 'privat'; // Starta med "Privat" som standard
 
     function createMenu(menuArray, level) {
         const ul = document.createElement('ul');
@@ -36,9 +40,6 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(response => response.json())
             .then(menuData => {
                 menuContainer.innerHTML = ''; // Clear existing menu
-                const menuIdentifier = jsonFile.replace('.json', '').replace('menu-', '');
-                menuContainer.setAttribute('data-menu', menuIdentifier); // Set data attribute
-
                 const menu = createMenu(menuData, 1);
                 menuContainer.appendChild(menu);
             })
@@ -47,9 +48,29 @@ document.addEventListener('DOMContentLoaded', function () {
             });
     }
 
-    loadMenu(menuSelector.value);
+    function updateMenu() {
+        const selectedMenu = menuSelector.value;
+        const jsonFile = `${currentMenuType}-${selectedMenu}`;
+        loadMenu(jsonFile);
+    }
 
-    menuSelector.addEventListener('change', function () {
-        loadMenu(this.value);
+    // Ladda menyn baserat på aktuell flik
+    updateMenu();
+
+    menuSelector.addEventListener('change', updateMenu);
+
+    // Hantera knapptryckningar för att byta mellan Privat och Företag
+    privateButton.addEventListener('click', function () {
+        currentMenuType = 'privat';
+        privateButton.classList.add('active');
+        businessButton.classList.remove('active');
+        updateMenu();
+    });
+
+    businessButton.addEventListener('click', function () {
+        currentMenuType = 'foretag';
+        businessButton.classList.add('active');
+        privateButton.classList.remove('active');
+        updateMenu();
     });
 });
