@@ -2,29 +2,68 @@
     {
         "title": "Villa",
         "submenus": [
-            {"title": "Teckna elavtal"},
-            {"title": "Solceller"}
+            {
+                "title": "Elavtal",
+                "submenus": [
+                    {"title": "Våra elavtal"},
+                    {"title": "Guide - Hjälp mig välja"}
+                ]
+            },
+            {
+                "title": "Solceller",
+                "submenus": [
+                    {"title": "Solcellspaket"},
+                    {"title": "Information om solceller"},
+                    {"title": "Guide - Sparar jag på solceller?"}
+                ]
+            },
+            {
+                "title": "Batterilagring",
+                "submenus": [
+                    {"title": "Batteripaket"},
+                    {"title": "Information om batterilagring"},
+                    {"title": "Guide - Sparar jag på hembatteri?"}
+                ]
+            },
+            {
+                "title": "Elbil",
+                "submenus": [
+                    {"title": "Elbilsladdare"},
+                    {"title": "Information om elbilsladdning"},
+                    {"title": "Guide - Är elbil för mig?"}
+                ]
+            }
         ]
+    },
+    {
+        "title": "Kunskapscenter - Populära kategorier",
+        "submenus": [
+            {"title": "Sänk din elkostnad"},
+            {"title": "Förstå solceller"},
+            {"title": "Allt om elbil"},
+            {"title": "Batterilagring"},
+            {"title": "Minska din miljöpåverkan"}
+        ]
+    },
+    {
+        "title": "Nyheter"
+    },
+    {
+        "title": "Kundcenter"
+    },
+    {
+        "title": "Appen Mitt Bixia"
     },
     {
         "title": "Lägenhet",
         "submenus": [
-            {"title": "Teckna elavtal"}
+            {"title": "Elavtal"},
+            {"title": "Appen Mitt Bixia"},
+            {"title": "Kundservice"},
+            {"title": "Nyheter"}
         ]
     },
     {
-        "title": "Företag",
-        "submenus": [
-            {"title": "Teckna elavtal"}
-        ]
-    },
-    {"title": "Flytt"},
-    {"title": "Kunskapsbanken"},
-    {
-        "title": "Om Bixia",
-        "submenus": [
-            {"title": "Jobba hos oss"}
-        ]
-    },
-    {"title": "Kundtjänst"}
+        "title": "Företag"
+    }
 ]
