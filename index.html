@@ -7,20 +7,19 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="menu-switcher">
+      <button id="privateButton" class="active">Privat</button>
+      <button id="businessButton">Företag</button>
+    </div>
     <select id="menuSelector">
       <option value="menu1.json">Meny 1</option>
       <option value="menu2.json">Meny 2</option>
       <option value="menu3.json">Meny 3</option>
       <option value="menu4.json">Meny 4</option>
       <option value="menu5.json">Meny 5</option>
-      <!-- Add as many options as you have JSON files for different layouts -->
     </select>
     <hr class="hr-separator" />
-    <!-- Horizontal line separator -->
-    <div class="menu" id="menuContainer">
-      <!-- Dynamic menu will be generated and inserted here -->
-    </div>
-
+    <div class="menu" id="menuContainer"></div>
     <script src="menu.js"></script>
   </body>
 </html>
